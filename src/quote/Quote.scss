@@ -3,6 +3,10 @@
   transform: translate(-28%, -119%) rotate(12deg);
   width: 80vmin;
   height: 80vmin;
+
+  @media (min-width: 767px) {
+    transform: translate(-49%, -58%) rotate(12deg);
+  }
 }
 
 
@@ -29,7 +33,7 @@
 
 .bubble {
   width: 65%;
-  height: 40%;
+  height: 30%;
   left: 73%;
   top: 10%;
   display: flex;
@@ -39,6 +43,10 @@
   font-size: 5vmin;
   background: #ffd;
   box-shadow: 0 -0.25vmin, 0 0.125vmin;
+
+  @media (min-width: 767px) {
+    height: 20%;
+  }
 }
 
 .bubble::before {

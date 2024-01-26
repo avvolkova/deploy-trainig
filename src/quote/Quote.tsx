@@ -1,11 +1,11 @@
 import React from 'react';
 import './Quote.scss';
 
-export function Quote() {
+export function Quote({isMolodets}: { isMolodets: boolean }) {
     return (
 
         <div className="cartoon">
-            <div className="bubble b r hb">Hello...<br/>I guess...</div>
+            <div className="bubble b r hb">{!isMolodets ? 'Нажми туды ↓↓↓' : 'Оч молодец!'}</div>
         </div>
     );
 };

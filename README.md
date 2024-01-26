@@ -2,7 +2,8 @@
 
 ## React + Typescript + ESLint + Prettier
 
-Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier от Elbrus Bootcamp.
+Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier от Elbrus
+Bootcamp.
 
 ## Использование
 
@@ -36,7 +37,8 @@ npm run preview
 
 ## `settings.json`
 
-Чтобы настроить форматирование и линтование по сохранению, необходимо прописать в `settings.json` (ctrl + shift + P) следующие настройки:
+Чтобы настроить форматирование и линтование по сохранению, необходимо прописать в `settings.json` (ctrl + shift + P)
+следующие настройки:
 
 ```json
 {
