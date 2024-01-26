@@ -7,7 +7,7 @@ export function Navbar() {
 
     useEffect(() => {
         console.log({params})
-        fetch('http://localhost:5000/anya').then(res => res.json()).then(console.log)
+        fetch('https://deploy-training.onrender.com/anya').then(res => res.json()).then(console.log)
     }, [])
 
     return (
