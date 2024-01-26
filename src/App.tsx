@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import './Sasska.sass';
-import {Routing} from "./Routing";
+import {Landing} from "./landing/Landing";
 
 function App(): JSX.Element {
 
     return (
-        <Routing/>
+        <Landing/>
     );
 }
 

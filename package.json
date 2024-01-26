@@ -36,6 +36,7 @@
     "prettier": "^3.0.0",
     "sass": "^1.70.0",
     "typescript": "^5.0.2",
-    "vite": "^4.4.0"
+    "vite": "^4.4.0",
+    "vite-plugin-favicon2": "^1.1.5"
   }
 }

@@ -1,0 +1,62 @@
+.cartoon {
+  position: relative;
+  transform: translate(-28%, -119%) rotate(12deg);
+  width: 80vmin;
+  height: 80vmin;
+}
+
+
+.cartoon div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.b {
+  border: 0.5vmin solid black;
+}
+
+.r {
+  border-radius: 100%;
+}
+
+.hb::before,
+.ha::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+
+.bubble {
+  width: 65%;
+  height: 40%;
+  left: 73%;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 5vmin;
+  background: #ffd;
+  box-shadow: 0 -0.25vmin, 0 0.125vmin;
+  font-family: "Comic Sans", "Comic Neue", sans-serif;
+}
+
+.bubble::before {
+  width: 40%;
+  height: 100%;
+  bottom: -51%;
+  border-radius: 50%;
+  left: 10%;
+  box-shadow: 0.5vmin 0, 2vmin -0.5vmin #ffd, 2vmin -0.5vmin 0 0.5vmin;
+  clip-path: polygon(0% 49%, 150% 48%, 150% 100%, 0% 100%);
+}
+
+.shirt-line-2 {
+  border-top: 0.4vmin solid;
+  width: 10%;
+  height: 4%;
+  top: 67.2%;
+  left: 36%;
+  background: var(--shirt);
+}
