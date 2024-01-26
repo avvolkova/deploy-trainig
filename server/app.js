@@ -13,6 +13,4 @@ app.get('/anya', (_, res) => {
     res.json({whoIsAnya: 'Anya molodec х3!'})
 })
 
-app.get("*", (req, res) => res.redirect("/"));
-
 app.listen(process.env.PORT || 5000)
