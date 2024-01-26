@@ -4,5 +4,5 @@ import {ViteFaviconsPlugin} from 'vite-plugin-favicon2';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), ViteFaviconsPlugin('/favicon.ico')],
+  plugins: [react(), ViteFaviconsPlugin('./public/favicon.png')],
 });

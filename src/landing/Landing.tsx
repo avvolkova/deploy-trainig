@@ -9,6 +9,7 @@ export function Landing() {
             <div className="container">
                 <img src='/img/anya.png' alt="happy anya" className="img"/>
                 <blockquote className="blabla"><Quote/></blockquote>
+                <button>Аня - молодец?</button>
             </div>
         </>
     );
