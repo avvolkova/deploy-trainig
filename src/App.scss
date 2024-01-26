@@ -1,4 +1,6 @@
 body {
+  cursor: pointer;
+
   @media (max-width: 767px) and (orientation: portrait) {
     /* Ваши стили для телефонов в портретной ориентации */
     background: rgba(200, 0, 255, 0.8);
